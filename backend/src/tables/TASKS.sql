@@ -1,0 +1,11 @@
+-- SQLite
+
+DROP TABLE IF EXISTS "Tasks";
+
+CREATE TABLE IF NOT EXISTS "Tasks" (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL,
+    state TEXT NOT NULL,
+    listID INTEGER NOT NULL
+);

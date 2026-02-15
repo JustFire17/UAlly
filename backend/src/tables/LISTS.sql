@@ -1,0 +1,11 @@
+-- SQLite
+
+DROP TABLE IF EXISTS "Lists";
+
+CREATE TABLE IF NOT EXISTS "Lists" ( 
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT, 
+    "title" TEXT NOT NULL, 
+    "description" TEXT NOT NULL, 
+    "categoryID" INTEGER NOT NULL, 
+    "userID" INTEGER NOT NULL
+);

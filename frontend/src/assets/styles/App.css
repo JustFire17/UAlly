@@ -1,0 +1,266 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.App {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #FFF6F6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #FFF6F6;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.centered-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.centered-div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.large-text {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.medium-text {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ff0101;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #FFF6F6;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #FFF6F6;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.sidebar {
+    background: #f200ff;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.sidebar-header {
+    padding: 20px;
+    background: #FFF6F6;
+}
+
+.sidebar-list {
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.components {
+    padding: 20px 0;
+}
+
+ul p {
+    color: #FFF6F6;
+    padding: 10px;
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+ul li a:hover {
+    color: #FFF6F6;
+}
+
+ul li.active > a,
+a[aria-expanded="true"] {
+    color: #FFF6F6;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    margin: 0;
+}
+
+.sidebar-color {
+    background: #cc00ff;
+    border-left: 2px solid rgb(77, 20, 87);
+    height: 100vh;
+    overflow-y: auto;
+    border-radius: 0;
+    padding-top: 70px;
+}
+
+.list-color {
+    background: #ef9fff; 
+    height: 100vh;
+    overflow-y: auto;
+    border-radius: 0;
+    padding-top: 70px;
+}
+
+.header-top {
+    background: #9e00ac;
+    border-bottom: 3px solid rgb(94, 27, 86);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container-top {
+    background: #e872ff;
+}
+
+.round-corners {
+    border-radius: 20px;
+}
+
+.welcomeview {
+    height: 80vh;
+}
+
+.about-text {
+    color: rgb(0, 0, 0);
+}
+
+.divider {
+    background-color: #FFF6F6;
+    border-color: #FFF6F6;
+    border-width: thick;
+    width: 380px;
+}
+
+.divider-sidebar {
+    background: -webkit-gradient(linear, 0 0, 100 0, from(transparent), to(transparent), color-stop(50%, #FFF6F6));
+    border-color: #FFF6F6;
+    border-width: thick;
+    width: 170px;
+    margin: 0;
+}
+
+.modal-title-center {
+    width: 100%;
+    text-align: center;
+}
+
+
+.btn-noglow {
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+.form {
+    width: 35%;
+}
+
+.register-form {
+    width: 100%;
+    max-width: 420px;
+}
+
+.modal-form {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.modal-form .form-label {
+    font-weight: 600;
+}
+
+.modal-form .dropdown,
+.modal-form .dropdown-toggle {
+    width: 100%;
+}
+
+.modal-form .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
