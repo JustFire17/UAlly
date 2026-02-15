@@ -249,9 +249,9 @@ The backend provides RESTful API endpoints for:
 
 ## 👥 Authors
 
-- Helena
-- Rui
-- Vasco
+- Helena Vassal
+- Rui Saraiva
+- Vasco Evaristo
 
 ## 📄 License
 
