@@ -100,7 +100,7 @@ UAlly/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/JustFire17/UAlly
    cd UAlly
    ```
 
